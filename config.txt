@@ -1,0 +1,9 @@
+neg=../data/normal_posts.txt <- change
+pos=../data/obscene_posts.txt <- change
+neg_obf=../data/normal_obf_posts.txt <- change
+pos_obf=../data/obscene_obf_posts.txt <- change
+test_neg=../data/normal_test_posts.txt
+test_pos=../data/obscene_test_posts.txt
+train_with_obf=true
+w2v=../data/w2v/gensim_w2v_full_obscene_normal
+epochs=1

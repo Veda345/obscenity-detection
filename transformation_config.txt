@@ -1,0 +1,3 @@
+vocab=obscene_dict.txt
+vocab_test_roots=ху,еб
+init_data=data/posts.txt
