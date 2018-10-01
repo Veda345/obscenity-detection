@@ -21,6 +21,7 @@ import json
 
 from util import getData, create_char_vocab_set
 
+np.random.seed(0)
 
 N_FILTER = 128
 

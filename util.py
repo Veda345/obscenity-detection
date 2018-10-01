@@ -1,4 +1,4 @@
-import os
+import numpy as np
 import re
 import string
 
@@ -20,7 +20,7 @@ def get_vocab(file_name):
     for line in f:
         vocab.append(line.lower().strip())
     f.close()
-    return set(vocab)
+    return vocab
 
 
 # Check text with given vocabulary
@@ -83,7 +83,7 @@ def getData(path):
 def create_char_vocab_set():
     alphabet = get_alphabet()
     vocab_size = len(alphabet)
-    check = set(alphabet)
+    check = alphabet
     alphabet = list(check)
 
     voc = {}
